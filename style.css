@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    background-color: rgb(25, 25, 52);
+   
+}
+.navbar img{
+    height: 50px;
+    width: 200px;
+   
+}
+.navbar .opt{
+   
+    justify-content: space-between;
+    margin-right: 30px;
+    display: flex;
+    padding-top: 10px;
+}
+.opt p{
+    padding-left: 40px;
+    cursor: pointer;
+    color: white;
+}
+.intro{
+    padding-top: 150px;
+    padding-left: 100px;
+    line-height: 1.5;
+    color: rgb(219, 219, 219);
+}
+.intro h1{
+    font-size: 70px;
+}
+.intro h4{
+    font-size: 28.8px;
+}
+.intro p{
+    font-weight: 500;
+}
+.work{
+    display: flex;
+    background-color: rgb(25, 25, 52);
+
+   
+}
+.row2{
+    padding-top: 200px;
+    padding-left: 100px;
+    line-height: 1.5;
+    padding-bottom: 150px;
+    color: white;
+}
+.talk{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.row2 p{
+    padding-top:20px ;
+    font-weight: bold;
+
+}
+.row2 hr{
+    margin-right: 80%;
+    height: 3px;
+    background-color: rgb(201,131,0);
+    border: none;
+    border-radius: 25px;
+}
+.info{
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(201, 131, 0);
+}
+.row3{
+    margin-top: 170px;
+    margin-left: 350px;
+    line-height: 1.5;
+    color: white;
+
+}
+.row3 h1{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.row3 p{
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.row3 li{
+    list-style: none;
+    cursor: pointer;
+}
+.row3 ul a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.logo img{
+ 
+    height: 350px;
+    width: 590px;
+    margin-top: 100px;
+    padding-left: 150px;
+}
+.row1{
+    display: flex;
+    background-color: rgb(25, 25, 52);
+}
+.btn{
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    background-color: rgb(201,131,0) ;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
