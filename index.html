@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talha Ikram | Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
+
 <body>
 
     <!-- ===== NAVBAR ===== -->
     <header class="navbar">
         <div class="container">
-            <img src="./signature1.png" alt="Logo" class="logo">
-
+            <div class="signature">
+                <img src="./signature1.png" alt="Logo" class="logo">
+            </div>
             <nav class="nav-links">
                 <a href="#about">About</a>
                 <a href="#skills">Skills</a>
@@ -24,123 +31,139 @@
             </nav>
         </div>
     </header>
+    <div class="main-container">
+        <main>
 
-    <main>
+            <!-- ===== HERO SECTION ===== -->
+            <section class="hero">
+                <div class="container hero-content">
 
-        <!-- ===== HERO SECTION ===== -->
-        <section class="hero">
-            <div class="container hero-content">
-
-                <div class="hero-text">
-                    <h4>Assalamo Alaikum!</h4>
-                    <h1>I'm <span>Talha Ikram</span></h1>
-                    <h3>MERN Stack Developer</h3>
-                    <p>
-                        I build clean, responsive, and user-focused web applications.
-                        My goal is to deliver high-quality work with clarity and efficiency.
-                    </p>
-                    <button class="btn">Hire Me</button>
-                </div>
-
-                <div class="hero-image">
-                    <img src="./t.designs.png" alt="Profile Illustration">
-                </div>
-
-            </div>
-        </section>
-
-        <!-- ===== ABOUT + SKILLS ===== -->
-        <section id="about" class="about">
-            <div class="container">
-
-                <div class="about-text">
-                    <h2>About Me</h2>
-                    <p>
-                        I am a passionate MERN stack developer with a strong foundation in
-                        frontend and backend development. I enjoy solving problems and
-                        turning ideas into real-world applications.
-                    </p>
-                </div>
-
-                <div id="skills" class="skills">
-                    <h3>Tech Stack</h3>
-
-                    <div class="skills-grid">
-                        <div class="skill-card">HTML5</div>
-                        <div class="skill-card">CSS3</div>
-                        <div class="skill-card">JavaScript (ES6+)</div>
-                        <div class="skill-card">React.js</div>
-                        <div class="skill-card">Node.js</div>
-                        <div class="skill-card">Express.js</div>
-                        <div class="skill-card">MongoDB</div>
-                        <div class="skill-card">Git & GitHub</div>
+                    <div class="hero-text">
+                        <h4>👋</h4>
+                        <h1>I'm <span>Talha Ikram</span></h1>
+                        <h3>MERN Stack Developer</h3>
+                        <p>
+                            I build clean, responsive, and user-focused web applications.
+                            My goal is to deliver high-quality work with clarity and efficiency.
+                        </p>
+                        <button class="btn">Download Resume</button>
                     </div>
+
+                    <div class="hero-image">
+                        <img src="./t.designs.png" alt="Profile Illustration">
+                    </div>
+
                 </div>
-
-            </div>
-        </section>
-
-        <!-- ===== PROJECTS (PLACEHOLDER) ===== -->
-        <section id="projects" class="projects">
-            <div class="container">
-
-                <h2>My Projects</h2>
-                <p>
-                    Here are some of the projects I have worked on.
-                </p>
-
-               <div class="projects-grid">
-    <a href="https://talhabrother.github.io/ChatApp-in-js/" target="_blank">
-        <div class="project-card">ChatApp</div>
-    </a>
-
-    <a href="https://talhabrother.github.io/ToDoList/" target="_blank">
-        <div class="project-card">To-Do List</div>
-    </a>
-
-    <a href="https://talhabrother.github.io/Color-Filling-Game/" target="_blank">
-        <div class="project-card">Color Filling Game</div>
-    </a>
-
-    <a href="https://talhabrother.github.io/Simple-Quiz-App/" target="_blank">
-        <div class="project-card">Quiz App</div>
-    </a>
-
-    <a href="https://talhabrother.github.io/Toyota-website/" target="_blank">
-        <div class="project-card">Toyota Website</div>
-    </a>
-
-    <a href="https://68d50ca915b8b60008bc2fcb--tictactoinreact.netlify.app" target="_blank">
-        <div class="project-card">Tic Tac Toe (React)</div>
-    </a>
-</div>
+            </section>
 
 
-            </div>
-        </section>
+            <!-- ===== ABOUT + SKILLS ===== -->
+            <section id="about" class="about">
+                <div class="container-about">
 
-        <!-- ===== CONTACT ===== -->
-        <section id="contact" class="contact">
-            <div class="container">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>
+                            I am a passionate MERN stack developer with a strong foundation in
+                            frontend and backend development. I enjoy solving problems and
+                            turning ideas into real-world applications.
+                        </p>
+                    </div>
 
-                <h2>Let’s Talk</h2>
-                <p>If you have any questions or want to work together, feel free to reach out.</p>
+                    <div id="skills" class="skills">
+                        <h3>Tech Stack</h3>
 
-                <div class="contact-info">
-                    <p>Email: <strong>talhaikram262005@gmail.com</strong></p>
-                    <p>WhatsApp: <strong>+92 327 311 2383</strong></p>
-                   <a href="https://github.com/TalhaBrother" target="_blank">GitHub</a>
-                <a href="https://www.linkedin.com/in/talha-ikram/" target="_blank">LinkedIn</a>
+                        <div class="skills-grid">
+                            <div class="skill-card">JavaScript (ES6+)</div>
+                            <div class="skill-card">React.js</div>
+                            <div class="skill-card">Node.js</div>
+                            <div class="skill-card">Express.js</div>
+                            <div class="skill-card">MongoDB</div>
+                            <div class="skill-card">NextJS</div>
+                            <div class="skill-card">Git & GitHub</div>
+                        </div>
+                    </div>
+
                 </div>
+            </section>
 
+            <!-- ===== PROJECTS (PLACEHOLDER) ===== -->
+            <div class="Project-align">
+                <section id="projects" class="projects">
+                    <div class="container">
+
+                        <h2>My Projects</h2>
+                        <p>
+                            Here are some of the projects I have worked on.
+                        </p>
+
+                        <div class="projects-grid">
+                            <a href="https://talhabrother.github.io/ChatApp-in-js/" target="_blank">
+                                <div class="project-card">ChatApp</div>
+                            </a>
+
+                            <a href="https://68d50ca915b8b60008bc2fcb--tictactoinreact.netlify.app" target="_blank">
+                                <div class="project-card">Tic Tac Toe (React)</div>
+                            </a>
+                            <a href="https://talhabrother.github.io/ToDoList/" target="_blank">
+                                <div class="project-card">To-Do List</div>
+                            </a>
+
+                            <a href="https://talhabrother.github.io/Color-Filling-Game/" target="_blank">
+                                <div class="project-card">Color Filling Game</div>
+                            </a>
+
+                            <a href="https://talhabrother.github.io/Simple-Quiz-App/" target="_blank">
+                                <div class="project-card">Quiz App</div>
+                            </a>
+
+                            <a href="https://talhabrother.github.io/Toyota-website/" target="_blank">
+                                <div class="project-card">Toyota Website</div>
+                            </a>
+
+                        </div>
+
+
+                    </div>
+                </section>
             </div>
-        </section>
+            <!-- ===== CONTACT ===== -->
+            <section id="contact" class="contact">
+                <div class="container">
 
-    </main>
+                    <h2>Let’s Talk</h2>
+                    <p>If you have any questions or want to work together, feel free to reach out.</p>
 
+                    <div class="contact-info">
+                        <p>
+                            <i class="fa-solid fa-envelope"></i>
+                            <strong>talhaikram262005@gmail.com</strong>
+                        </p>
+
+                        <p>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <strong>+92 327 311 2383</strong>
+                        </p>
+
+                        <a href="https://github.com/TalhaBrother" target="_blank">
+                            <i class="fa-brands fa-github"></i> GitHub
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/talha-ikram/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+
+
+                </div>
+            </section>
+
+        </main>
+    </div>
     <footer class="footer">
         <p>© 2026 Talha Ikram. All rights reserved.</p>
     </footer>
 
 </body>
+
 </html>
