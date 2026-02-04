@@ -106,3 +106,8 @@ ScrollTrigger.matchMedia({
   }
 
 });
+
+AOS.init({
+    duration: 1000,  // animation duration in ms
+    once: true       // animation happens only once
+  });

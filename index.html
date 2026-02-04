@@ -11,9 +11,13 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   <!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
 <script src="main.js" defer></script>
 </head>
 
@@ -60,34 +64,36 @@
 
 
             <!-- ===== ABOUT + SKILLS ===== -->
-            <section id="about" class="about">
-                <div class="container-about">
+           <!-- ===== ABOUT ===== -->
+<section id="about" class="about">
+    <div class="container-about">
+        <div class="about-text">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate MERN stack developer with a strong foundation in
+                frontend and backend development. I enjoy solving problems and
+                turning ideas into real-world applications.
+            </p>
+        </div>
+    </div>
+</section>
 
-                    <div class="about-text">
-                        <h2>About Me</h2>
-                        <p>
-                            I am a passionate MERN stack developer with a strong foundation in
-                            frontend and backend development. I enjoy solving problems and
-                            turning ideas into real-world applications.
-                        </p>
-                    </div>
+<!-- ===== SKILLS ===== -->
+<section id="skills" class="skills">
+    <div class="container-about"> <!-- you can reuse the same container styling -->
+        <h3>Tech Stack</h3>
+        <div class="skills-grid">
+            <div class="skill-card">JavaScript (ES6+)</div>
+            <div class="skill-card">React.js</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">Express.js</div>
+            <div class="skill-card">MongoDB</div>
+            <!-- <div class="skill-card">NextJS</div> -->
+            <div class="skill-card">Git & GitHub</div>
+        </div>
+    </div>
+</section>
 
-                    <div id="skills" class="skills">
-                        <h3>Tech Stack</h3>
-
-                        <div class="skills-grid">
-                            <div class="skill-card">JavaScript (ES6+)</div>
-                            <div class="skill-card">React.js</div>
-                            <div class="skill-card">Node.js</div>
-                            <div class="skill-card">Express.js</div>
-                            <div class="skill-card">MongoDB</div>
-                            <div class="skill-card">NextJS</div>
-                            <div class="skill-card">Git & GitHub</div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
 
             <!-- ===== PROJECTS (PLACEHOLDER) ===== -->
             <div class="Project-align">
