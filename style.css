@@ -105,6 +105,10 @@ p {
     gap: 3rem;
     width: 100%;
 }
+#welcome-hand {
+  display: inline-block;         
+  transform-origin: 70% 70%;      
+}
 
 .hero-text {
     flex: 1;
@@ -149,6 +153,7 @@ p {
     cursor: pointer;
     font-weight: 600;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -175,14 +180,43 @@ p {
 .about h2 {
     margin-bottom: 1rem;
 }
+/* ===== EDUCATION TWO-COLUMN LAYOUT ===== */
+#about .about-text {
+    width: 100%;
+}
 
+#about .about-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem 3rem; /* row gap | column gap */
+}
+
+#about .about-text h2 {
+    grid-column: span 2; /* heading full width */
+    text-align: center;
+}
+
+/* spacing for each education block */
+#about .about-text p {
+    margin: 0;
+    line-height: 1.6;
+}
+  #about .about-text p {
+    background-color: #121212;
+    padding: 1.2rem 1.5rem;
+    border-radius: 10px;
+}
 /* ===== SKILLS ===== */
 .skills {
     width: 100%;
     /* padding: 3rem 1.5rem; */
 }
 
-.skills h3 {
+.skills h2 {
+   
+    text-align: center;
+}
+.skills p {
     margin-bottom: 1.5rem;
     text-align: center;
 }
@@ -263,6 +297,7 @@ p {
     font-size: 1.1rem;
     cursor: pointer;
     font-weight: 500;
+   
     /* transition: transform 0.3s, background-color 0.3s; */
 }
 
@@ -272,13 +307,14 @@ p {
     background-color: #121212;
     justify-content: center;
     border-radius: 12px;
-
+    text-decoration: none;
 }
 
 a:hover {
     transform: translateY(-8px);
     background-color: #2b2b2b;
     border: 1px solid #a855f7;
+    
 }
 
 /* ===== CONTACT ===== */
@@ -370,6 +406,14 @@ a:hover {
     html {
         scroll-snap-type: none;
     }
+        #about .about-text {
+        grid-template-columns: 1fr;
+    }
+
+    #about .about-text h2 {
+        grid-column: span 1;
+    }
+  
 
     /* STACK skills and projects vertically */
     .skills-grid {

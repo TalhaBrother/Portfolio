@@ -111,3 +111,25 @@ AOS.init({
     duration: 1000,  // animation duration in ms
     once: true       // animation happens only once
   });
+
+gsap.to("#scramble-text-original", {
+  duration: 2, 
+  scrambleText: "MERN Stack Developer"
+});
+
+// Hand wave animation
+
+gsap.fromTo(
+  "#welcome-hand",
+  { rotation: 0 },
+  {
+    rotation: 20,
+    duration: 0.2,
+    yoyo: true,
+    repeat: 5,
+    ease: "power1.inOut",
+    transformOrigin: "70% 70%",
+    repeatDelay: 0.05
+  }
+);
+
